@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.samo_lego.cuberenderlib.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockEntityUpdateS2CPacketAccessor",
+    "BlockUpdateS2CPacketAccessor",
+    "PlayerAbilitiesS2CPacketAccessor",
+    "ServerPlayerEntityMixinCast_SelectionRender",
+    "SPNHMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

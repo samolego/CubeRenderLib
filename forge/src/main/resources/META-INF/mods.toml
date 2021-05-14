@@ -1,35 +1,28 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/samolego/CubeRenderLib/issues"
+license = "LGPL"
 
 [[mods]]
-modId = "examplemod"
+modId = "cuberenderlib"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Cube Render Library"
+authors = "samo_lego"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A server-side library used for rendering cube selections in Minecraft.
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.cuberenderlib]]
 modId = "forge"
 mandatory = true
 versionRange = "[35,)"
 ordering = "NONE"
-side = "BOTH"
+side = "SERVER"
 
-[[dependencies.examplemod]]
+[[dependencies.cuberenderlib]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.2,)"
 ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.examplemod]]
-modId = "architectury"
-mandatory = true
-versionRange = "[1.1.55,)"
-ordering = "AFTER"
-side = "BOTH"
+side = "SERVER"
